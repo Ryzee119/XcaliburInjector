@@ -2,7 +2,7 @@
 //Written by Ryan Wendland
 //This proof of concept (PoC) was written to fix Xcalibur setting issues on a Xbox v1.6 console when running XeniumOS at 480p.
 //Usage:
-//1. Hook Arduino to Xboxes SMBus, (SDA,CLK and GND), wait for Xenium to boot into XeniumOS. Confirm you have graphical issues
+//1. Hook Arduino to Xboxes SMBus, (SDA,SCL and GND), wait for Xenium to boot into XeniumOS. Confirm you have graphical issues
 //   as described here https://github.com/Ryzee119/OpenXenium/issues/2.
 //2. Program this code to the Arduino to inject new SMBus registers.
 //3. This is purely a PoC and the inject values will be lost each reboot, so its not particulary useful.

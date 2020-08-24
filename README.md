@@ -1,6 +1,6 @@
 
 # XcaliburInjector
-
+![Build](https://github.com/Ryzee119/XcaliburInjector/workflows/Build/badge.svg)  
 Inject registers values into Xcalibur Video Encoder on a Original Xbox console with a v1.6 motherboard.
 This proof of concept (PoC) was written to fix Xcalibur setting issues on a Xbox v1.6 console when running XeniumOS at 480p.
 Usage:

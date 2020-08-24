@@ -21,7 +21,6 @@ jobs:
       run: |
         arduino-cli core update-index
         arduino-cli core install arduino:avr
-        arduino-cli lib install Wire
       
     - name: Compile Sketch
       run: arduino-cli compile -b arduino:avr:leonardo --warnings "default"

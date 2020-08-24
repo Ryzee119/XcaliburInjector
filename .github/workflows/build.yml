@@ -23,4 +23,4 @@ jobs:
         arduino-cli core install arduino:avr
       
     - name: Compile Sketch
-      run: arduino-cli compile -b arduino:avr:leonardo --warnings "default"
+      run: arduino-cli compile -b arduino:avr:leonardo xcalibur_write.ino --warnings "default"
